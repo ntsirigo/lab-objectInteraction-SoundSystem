@@ -2,7 +2,7 @@
  * Αυτή η κλάση αναπαριστά ένα ηχείο. Το ηχείο έχει δύο χαρακτηριστικά, την ισχύ (Watts) και την πίεση του ήχου (Sound
  * Pressure Level - SPL) που την μετράμε σε deciBels (dB).
  * This class represents a speaker. The speaker has two attributes, its power (Watts) and its Sound Pressure Level - SPL
- * measured in deviBels (dB).
+ * measured in deciBels (dB).
  */
 public class Speaker {
 
