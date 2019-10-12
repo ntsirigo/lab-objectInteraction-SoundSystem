@@ -48,10 +48,9 @@ public class Speaker {
 
     /**
      * Το ηχείο παίρνει μια βαθμολογία (1-5) ανάλογα με την ισχύ του. Αν η ισχύς είναι κάτω από 30 watts παίρνει τον
-     * βαθμό 1. Αντίστοιχα (60 -> 2, 80 -> 3, 100-> 4, >100 -> 5). Αυτή η μέθοδος επιστρέφει την βαθμολογία.
-     * Each speaker is rated from 1 to 5 based on its power (watts). If its power is less than 30 watts it is rated with
-     * 1. Respectively (60 -> 2, 80 -> 3, 100-> 4, >100 -> 5). This method should return the speakers rating,
-     * * βαθμό 1. Αντίστοιχα
+     * βαθμό 1. Αντίστοιχα: 60 -> 2, 80 -> 3, 100-> 4, >100 -> 5. Αυτή η μέθοδος επιστρέφει την βαθμολογία.
+     * The speaker is rated from 1 to 5 based on its power (watts). If its power is less than 30 watts it is rated with
+     * 1. Respectively: 60 -> 2, 80 -> 3, 100-> 4, >100 -> 5. This method should return the speaker's rating
      */
     public int getRating() {
 
