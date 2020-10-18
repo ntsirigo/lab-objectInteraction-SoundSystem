@@ -1,7 +1,5 @@
 language: java
 jdk:
-  - openjdk10
+  - openjdk11
 before_script:
   - sudo apt-get install ant-optional
-  - git clone git@github.com:auth-csd-oop-master/extra-tests.git
-  - cp extra-tests/ObjectInteractionTest.java test/.
